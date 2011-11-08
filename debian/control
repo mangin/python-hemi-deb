@@ -1,0 +1,14 @@
+Source: python-hemi
+Section: libs
+Priority: optional
+Maintainer: Ilya Novoselov <ilya.novoselov@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), python-support, python-all-dev, python-setuptools, libv8-dev
+Standards-Version: 3.9.2
+Homepage: https://github.com/nullie/python-hemi
+#Vcs-Git: git://git.debian.org/collab-maint/python-hemi.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/python-hemi.git;a=summary
+
+Package: python-hemi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: lightweight python v8 bindings

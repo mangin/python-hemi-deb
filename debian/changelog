@@ -1,0 +1,11 @@
+python-hemi (0.1.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release.
+
+ -- Ilya Novoselov <ilya.novoselov@gmail.com>  Mon, 07 Nov 2011 20:25:59 +0600
+
+python-hemi (0.1~alpha1-1ubuntu1) oneiric; urgency=low
+
+  * Alpha release
+
+ -- Ilya Novoselov <ilya.novoselov@gmail.com>  Sun, 06 Nov 2011 23:08:56 +0600
