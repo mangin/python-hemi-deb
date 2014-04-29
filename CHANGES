@@ -1,0 +1,48 @@
+Python-HEMI Changelog
+=====================
+
+Version 0.2.5
+-------------
+
+- Support passing long integers
+
+Version 0.2.4
+-------------
+
+- Remove troublesome traceback mocking.
+
+Version 0.2.3
+-------------
+
+- Fixed memory leak in javascript function call.
+
+Version 0.2.2
+-------------
+
+- Fixed memory leak in __json__ unwrap.
+
+Version 0.2
+-----------
+
+- Support unwrapping hemi.undefined.
+- __json__ method for unwrapping user-defined types.
+- Compile with python 2.5.
+- Symbolize all strings for faster BEM execution.
+- Raise exception on non-ascii strings.
+- Wrapped objects behave more like Javascript ones (missing properties return
+  undefined).
+- More Javascript exceptions supported.
+- Better Javascript traceback.
+- Property deleteion support.
+- Wrap Python functions to Javascript (Context.Function).
+- Create wrapped Javascript objects from Python (Context.Object).
+- Modification of Javascript objects.
+- Ability to pass wrapped Javascript objects back to Javascript.
+- Ability to convert Javascript objects to Python dict and list
+  (hemi.pythonize).
+- Fixed some bugs.
+
+Version 0.1.1
+-------------
+
+- Initial release
