@@ -11,3 +11,13 @@
 
 %:
 	dh $@
+
+override_dh_install:
+	# Install everything excluding the *_d.so debug extensions to python-hemi
+	dh_install -X"*_d.so" "debian/tmp/*" -p python-hemi
+        
+	# Install the debug extensions to python-hemi-dbg
+	dh_install "debian/tmp/usr/lib/python*/*-packages/*_d.so" -p python-hemi-dbg
+        
+	# Continue with regular dh_install
+	dh_install
